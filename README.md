@@ -5,10 +5,10 @@
 
 | Diretório                    	| Finalidade       	                                                                                        | 
 |------------------------------	|---------------------------------------------------------------------------------------------------------- |
-|                               	|                             |
-|                               	|                             |
-| 	                              |                            	|
-| 	                              |                           	|
+|Prova_Pratica_GFT/imagem/gft.png                              	|                             |
+|Prova_Pratica_GFT/source/                               	|                             |
+|Prova_Pratica_GFT/source/  	                              |                            	|
+|Prova_Pratica_GFT/source/  	                              |                           	|
 |                               	|                             |
 |                               	|                             |
 | 	                              |                            	|
@@ -22,4 +22,4 @@
 
 * .Net - Como framework
 
- ![GFT](imagem/gft.png)
+ ![GFT](Prova_Pratica_GFT/imagem/gft.png)
