@@ -7,7 +7,7 @@ namespace Prova_Pratica_GFT
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
-
+            Console.WriteLine("GFT" );
 
 
         }
