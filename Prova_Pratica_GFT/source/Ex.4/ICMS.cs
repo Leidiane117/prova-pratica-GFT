@@ -1,25 +1,25 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Text;
 
 namespace Prova_Pratica_GFT.source.Ex._4
 {
-   public  class ICMS : Iimposto
+   public  class ICMS : IImposto
     {
-        void Iimposto.calculaImposto(double valor)
+       public  double calculaImposto(double valor)
         {
-           
-           double valorI = valor * 0.30;
 
-            Console.WriteLine("Valor incidente do Imposto ICMS"+""+ valorI);
+            double valorl = valor * 0.30;
+            Console.WriteLine("------ ICMS------"+" "+ valorl);
 
+
+            return valorl;
 
         }
-        
+     
 
 
         }
 
 
     }
-
