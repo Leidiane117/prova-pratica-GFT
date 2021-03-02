@@ -4,13 +4,13 @@ using System.Text;
 
 namespace Prova_Pratica_GFT.source.Ex._4
 {
-    interface Iimposto
+    interface IImposto
     {
     
 
-        void calculaImposto(double valor)
+        double calculaImposto(double valor)
         {
-
+            return valor;
         }
     
     
