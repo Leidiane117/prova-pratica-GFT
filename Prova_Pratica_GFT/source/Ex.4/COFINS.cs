@@ -1,28 +1,28 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Text;
 
 namespace Prova_Pratica_GFT.source.Ex._4
 {
-    class COFINS : Iimposto
+    public class COFINS : IImposto
     {
 
-        void Iimposto.calculaImposto(double valor)
+        public double calculaImposto(double valor)
         {
 
-            double valorI;
+            double valorI=0;
             if (valor > 12000.00)
             {
                 valorI = valor * 0.08;
-                Console.WriteLine("Valor incidente do Imposto ICMS" + "" + valorI);
+                Console.WriteLine("------ COFINS ------ "  + " " + valorI);
             }
 
             else if (valor <= 12000.00)
             {
 
-                Console.WriteLine("Não tem incidência  ICMS" + "");
+                Console.WriteLine("----COFINS-----0");
             }
-
+           return valorI;
         }
     }
 }
