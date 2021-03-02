@@ -1,31 +1,30 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Text;
 
 namespace Prova_Pratica_GFT.source.Ex._4
 {
-    class IPI:Iimposto
+   public  class IPI:IImposto
     {
 
-        void Iimposto.calculaImposto(double valor)
+       public  double calculaImposto(double valor)
         {
 
-            double valorI ;
+            double valorI=0 ;
 
-            if (valor < 2500.00)
+            if (valor < 25000.00)
             {
                 valorI = valor * 0.05;
-                Console.WriteLine("Valor incidente do Imposto ICMS" + "" + valorI);
+                Console.WriteLine("-------IPI-------" + " " + valorI);
             }
 
             else if (valor>=2500)
             {
                 valorI = valor * 0.10;
-                Console.WriteLine("Valor incidente do Imposto ICMS" + "" + valorI);
+                Console.WriteLine("--------IPI------- " + " " + valorI);
             }
-
+            return valorI;
         }
         }
 
     }
-
